@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 30px;
+    background-color: #D9D9D9;
+}
+
+.header > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    gap: 25px;
+}
+
+.input-container > :where(input, select) {
+    font-size: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+}
+
+.buttons-plus-minus {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-self: center;
+}
+
+.buttons-plus-minus > button {
+    padding: 15px 50px;
+    border-radius: 8px;
+}
+
+.content-form {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    flex: 1;
+}
