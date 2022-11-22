@@ -3,16 +3,6 @@ body {
     flex-direction: column;
 }
 
-.header {
-    padding: 30px;
-    background-color: #D9D9D9;
-}
-
-.header > h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-}
-
 form {
     padding: 30px;
     display: flex;
