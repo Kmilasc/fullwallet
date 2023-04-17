@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullwallet</title>
+    <link rel="stylesheet" href="../../assets/form.css">
+    <link rel="stylesheet" href="../../assets/global.css">
+    <link rel="stylesheet" href="../../assets/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img onclick="goToHome()" src="assets/arrow-back.svg" alt="arrow-back">
+        <h3>Adicionar transação</h3>
+    </div>
+    <form>
+        <div class="content-form">
+            <div class="input-container">
+                <label for="transaction-name">Nome da transação?</label>
+                <input type="transaction-name" id="transaction-name" type="text" placeholder="Economias">
+            </div>
+            <div class="input-container">
+                <label for="value">Valor</label>
+                <input name="value" id="value" type="text" placeholder="Valor da transação" value="R$ 0,00">
+            </div>
+            <div class="buttons-plus-minus">
+                <button type="button" class="button-base">-R$</button> 
+                <button type="button" class="button-base">+R$</button>
+            </div>
+            <div class="input-container">
+                <label for="date">Data</label>
+                <input name="date" id="date" type="date">
+            </div>
+            <div class="input-container">
+                <label for="account-type">Conta</label>
+                <select name="account-type" id="account-type">
+                    <option selected disabled>Escolha sua conta</option>
+                </select>
+            </div>
+        </div>
+        <div class="center">
+            <button type="submit" class="button-base">Adicionar</button>
+        </div>
+    </form>
+</body>
+</html>
